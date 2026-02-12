@@ -32,11 +32,12 @@ import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 import logo from './assets/education_logo/logo.webp';
 
 // Project Section Logo's
-import watchlogo from './assets/work_logo/watch.png';
-import Market from './assets/work_logo/Market.png';
-import Event from './assets/work_logo/event.png';
-import Real from './assets/work_logo/real.png';
-
+import WeatherAPI from './assets/work_logo/Weather App (API Based).png'
+import Calculator from './assets/work_logo/Calculator.png'
+import KFC from './assets/work_logo/KFC.png'
+import NOTES from './assets/work_logo/Notes.png'
+import Quiz from './assets/work_logo/Quiz.png'
+import ToDoList from './assets/work_logo/To-Do List.png'
 
 export const SkillsInfo = [
   {
@@ -165,42 +166,62 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
-      title: "Watch Website",
+      title: "Weather App (API Based)",
       description:
-        "Create a modern and responsive Watch E-Commerce Website using HTML, CSS, and JavaScript. The website should showcase different categories of watches with stylish product cards, smooth animations, and interactive features. The design must be clean, premium, and suitable for luxury watch brands.",
-      image: watchlogo,
+        "Created an API-based Weather App that fetches and displays live weather information including temperature, city-wise forecast, and weather status using external weather APIs.",
+      image: WeatherAPI,
       tags: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/jinaypatel0809/Watch-Website.git",
-      webapp: "https://watch-website-liart.vercel.app/",
+      github: "https://github.com/jinaypatel0809/Weather-App",
+      webapp: "https://weather-app-otql.vercel.app/",
     },
     {
       id: 1,
-      title: "Sher Market Website",
+      title: "Calculator",
       description:
-        "Create a modern and responsive Share Market Website using HTML, CSS, and JavaScript that displays live stock prices, market trends, company details, and interactive charts. The website should include a homepage with stock tickers, a market overview section, watchlist management, and a chart visualization area. Use JavaScript to fetch and update real-time stock data, handle search functionality, and create dynamic UI components. Style the website using clean, professional layouts with CSS to give it a financial dashboard look.",
-      image: Market,
+        "Developed a functional calculator project to perform basic mathematical calculations efficiently, focusing on accuracy, simplicity, and ease of use.",
+      image: Calculator,
       tags: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/jinaypatel0809/SHER-MARKET-WEBSITE.git",
-      webapp: "https://sher-market-website.vercel.app/",
+      github: "https://github.com/jinaypatel0809/Currency-Converter",
+      webapp: "https://currency-converter-brown-two.vercel.app/",
     },
     {
       id: 2,
-      title: "Event Management ",
+      title: "KFC Burger",
       description:
-        "Create a fully responsive Event Management Website using HTML, CSS, and JavaScript that showcases upcoming events, event categories, booking details, and contact information. The website should include a modern homepage banner, event cards with images, interactive navigation, smooth animations, and a dynamic event registration form using JavaScript. Users should be able to view event details, register for events, and explore categories like weddings, corporate events, concerts, and parties. The design must be clean, attractive, and mobile-friendly.",
-      image: Event,
+        "Built a responsive and visually appealing KFC-style burger website with dynamic menu sections and interactive features using HTML, CSS, and JavaScript, focusing on user experience and clean design.",
+      image: KFC,
       tags: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/jinaypatel0809/Event-Management-.git",
-      webapp: "https://event-management-xi-three.vercel.app/",
+      github: "https://github.com/jinaypatel0809/KFC-BURGER",
+      webapp: "https://kfc-burger.vercel.app/",
     },
     {
       id: 3,
-      title: "Real-assist-Website",
+      title: "Notes App",
       description:
-        "Create a modern Real-Assist website that helps users find, view, and manage real-estate properties. The website should include a clean home page, property listing section, property details page, and a contact form. Use HTML for structure, CSS for stylish layouts with responsive design, and JavaScript for interactive features like property search, filtering, image sliders, and form validation. The UI should look professional, easy-to-navigate, and optimized for both mobile and desktop.",
-      image: Real,
-      tags: ["Html", "CSS", "Java Script"],
-      github: "https://github.com/jinaypatel0809/Real-assist-Website.git",
-      webapp: "https://real-assist-website.vercel.app/",
+        "Created a Notes App using modern development tools to manage notes effectively, supporting CRUD operations with a responsive and user-friendly interface.",
+      image: NOTES,
+      tags: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/jinaypatel0809/Notes-App",
+      webapp: "https://kfc-burger-gwvn.vercel.app/",
+    },
+    {
+      id: 4,
+      title: "Quiz App",
+      description:
+        "Quiz App – Designed and developed a quiz application with multiple questions, timer-based gameplay, score tracking, and responsive user interface using modern app development concepts.",
+      image: Quiz,
+      tags: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/jinaypatel0809/Quiz-App",
+      webapp: "https://quiz-app-eta-ruddy.vercel.app/",
+    },
+    {
+      id: 5,
+      title: "To-Do List",
+      description:
+        "Developed a To-Do List application using HTML, CSS, and JavaScript that allows users to add, edit, and delete tasks efficiently. Implemented real-time task updates, user-friendly UI, and toast notifications for actions like add and delete to enhance user experience.",
+      image: ToDoList,
+      tags: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/jinaypatel0809/To-Do-list-",
+      webapp: "https://quiz-app-mw46.vercel.app/",
     },
   ];  
