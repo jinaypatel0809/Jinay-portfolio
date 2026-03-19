@@ -38,7 +38,7 @@ import KFC from './assets/work_logo/KFC.png'
 import NOTES from './assets/work_logo/Notes.png'
 import Quiz from './assets/work_logo/Quiz.png'
 import ToDoList from './assets/work_logo/To-Do List.png'
-
+import Apple from './assets/work_logo/Apple.png'
 export const SkillsInfo = [
   {
     title: 'Frontend',
@@ -221,6 +221,16 @@ export const SkillsInfo = [
         "Developed a To-Do List application using HTML, CSS, and JavaScript that allows users to add, edit, and delete tasks efficiently. Implemented real-time task updates, user-friendly UI, and toast notifications for actions like add and delete to enhance user experience.",
       image: ToDoList,
       tags: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/jinaypatel0809/To-Do-list-",
+      webapp: "https://quiz-app-mw46.vercel.app/",
+    },
+    {
+      id: 5,
+      title: "Apple Store",
+      description:
+        "Built a fully responsive Apple Store-inspired e-commerce website using React.js. The application allows users to browse products like watches, mobiles, and laptops with a clean and modern UI.",
+      image: Apple,
+      tags: ["HTML", "CSS", "JavaScript", "React"],
       github: "https://github.com/jinaypatel0809/To-Do-list-",
       webapp: "https://quiz-app-mw46.vercel.app/",
     },
