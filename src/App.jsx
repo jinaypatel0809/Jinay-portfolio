@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
@@ -8,10 +8,14 @@ import Education from "./components/Education/Education";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import BlurBlob from './components/BlurBlob';
+import SplashScreen from './components/SplashScreen';
 
 const App = () => {
+  const [showSplash, setShowSplash] = useState(true);
+
   return (
     <div className="bg-[#050414]">
+      {showSplash && <SplashScreen onComplete={() => setShowSplash(false)} />}
 
        <BlurBlob position={{ top: '35%', left: '20%' }} size={{ width: '30%', height: '40%' }} />
 

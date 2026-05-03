@@ -231,7 +231,7 @@ export const SkillsInfo = [
         "Built a fully responsive Apple Store-inspired e-commerce website using React.js. The application allows users to browse products like watches, mobiles, and laptops with a clean and modern UI.",
       image: Apple,
       tags: ["HTML", "CSS", "JavaScript", "React"],
-      github: "https://github.com/jinaypatel0809/To-Do-list-",
-      webapp: "https://quiz-app-mw46.vercel.app/",
+      github: "https://github.com/jinaypatel0809/Apple-Store.git",
+      webapp: "https://apple-store-chi-sable.vercel.app/",
     },
   ];  
