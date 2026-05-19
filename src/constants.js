@@ -39,6 +39,7 @@ import NOTES from './assets/work_logo/Notes.png'
 import Quiz from './assets/work_logo/Quiz.png'
 import ToDoList from './assets/work_logo/To-Do List.png'
 import Apple from './assets/work_logo/Apple.png'
+import Job from './assets/work_logo/JobPortal.png'
 export const SkillsInfo = [
   {
     title: 'Frontend',
@@ -233,5 +234,15 @@ export const SkillsInfo = [
       tags: ["HTML", "CSS", "JavaScript", "React"],
       github: "https://github.com/jinaypatel0809/Apple-Store.git",
       webapp: "https://apple-store-chi-sable.vercel.app/",
+    },
+    {
+      id: 6,
+      title: "Job Portal App",
+      description:
+        "A modern Full Stack Job Finder Application developed to connect job seekers with recruiters through a simple, fast, and user-friendly platform. This application allows users to search and apply for jobs, create professional profiles, upload resumes, and track application status in real time. Recruiters can post job vacancies, manage applications, and find suitable candidates efficiently.",
+      image: Job,
+      tags: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js", "Mongodb"],
+      github: "https://github.com/jinaypatel0809/Job-Portal-Frontend.git",
+      webapp: "https://job-portal-frontend-two-zeta.vercel.app/",
     },
   ];  
