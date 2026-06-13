@@ -39,7 +39,7 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a fresher full-stack developer with knowledge of MERN stack and modern web technologies. I am passionate about creating user-friendly applications and continuously improving my skills.
+            I am a full-stack developer with knowledge of MERN stack and modern web technologies. I am passionate about creating user-friendly applications and continuously improving my skills.
           </p>
           {/* Resume Button */}
           <a

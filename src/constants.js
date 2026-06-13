@@ -40,6 +40,7 @@ import Quiz from './assets/work_logo/Quiz.png'
 import ToDoList from './assets/work_logo/To-Do List.png'
 import Apple from './assets/work_logo/Apple.png'
 import Job from './assets/work_logo/JobPortal.png'
+import Swiggy from './assets/work_logo/Swiggy.png'
 export const SkillsInfo = [
   {
     title: 'Frontend',
@@ -244,5 +245,15 @@ export const SkillsInfo = [
       tags: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js", "Mongodb"],
       github: "https://github.com/jinaypatel0809/Job-Portal-Frontend.git",
       webapp: "https://job-portal-frontend-two-zeta.vercel.app/",
+    },
+    {
+      id: 7,
+      title: "Swiggy App",
+      description:
+        "Developed a full-stack food delivery web application inspired by Swiggy, enabling users to browse restaurants, explore menus, place orders, and track order status in real-time. Implemented secure user authentication, responsive UI, cart management, order processing, and admin functionalities for restaurant and menu management. Built RESTful APIs for seamless communication between the frontend and backend while ensuring efficient database operations and scalable architecture.",
+      image: Swiggy,
+      tags: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js", "Mongodb"],
+      github: "https://github.com/jinaypatel0809/SWIGGY-Full-Stack.git",
+      webapp: "https://swiggy-full-stack-9nsc.vercel.app/",
     },
   ];  
