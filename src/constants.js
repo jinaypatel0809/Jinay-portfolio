@@ -41,6 +41,7 @@ import ToDoList from './assets/work_logo/To-Do List.png'
 import Apple from './assets/work_logo/Apple.png'
 import Job from './assets/work_logo/JobPortal.png'
 import Swiggy from './assets/work_logo/Swiggy.png'
+import Society from './assets/work_logo/Society.png'
 export const SkillsInfo = [
   {
     title: 'Frontend',
@@ -255,5 +256,15 @@ export const SkillsInfo = [
       tags: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js", "Mongodb"],
       github: "https://github.com/jinaypatel0809/SWIGGY-Full-Stack.git",
       webapp: "https://swiggy-full-stack-9nsc.vercel.app/",
+    },
+    {
+      id: 7,
+      title: "Society Management App",
+      description:
+        "A modern full-stack web application designed to simplify residential society management. The platform enables administrators to manage residents, flats, maintenance bills, complaints, payments, and notifications from a centralized dashboard. Residents can securely log in to view maintenance details, submit complaints, make payments, and download PDF receipts. The application features JWT-based authentication, role-based access control, responsive design, and a scalable REST API architecture.",
+      image: Society,
+      tags: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js", "Mongodb", "Axios", "PDFKit", "Nodemailer"],
+      github: "https://github.com/jinaypatel0809/Society-Resident-Management-App.git",
+      webapp: "https://society-resident-management-app.vercel.app/",
     },
   ];  
