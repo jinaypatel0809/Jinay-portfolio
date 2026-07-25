@@ -5,6 +5,7 @@ import Skills from "./components/Skills/Skills";
 import Experience from "./components/Experience/Experience";
 import Work from "./components/Work/Work";
 import Education from "./components/Education/Education";
+import Certificates from "./components/Certificates/Certificates";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import BlurBlob from './components/BlurBlob';
@@ -27,6 +28,7 @@ const App = () => {
         <Skills />
         <Work />
         <Education />
+        <Certificates />
         <Contact />
         <Footer />
       </div>

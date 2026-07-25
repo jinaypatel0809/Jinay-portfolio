@@ -32,16 +32,53 @@ import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 import logo from './assets/education_logo/logo.webp';
 
 // Project Section Logo's
-import WeatherAPI from './assets/work_logo/Weather App (API Based).png'
-import Calculator from './assets/work_logo/Calculator.png'
-import KFC from './assets/work_logo/KFC.png'
-import NOTES from './assets/work_logo/Notes.png'
-import Quiz from './assets/work_logo/Quiz.png'
-import ToDoList from './assets/work_logo/To-Do List.png'
-import Apple from './assets/work_logo/Apple.png'
+import EmployManagementSystem from './assets/work_logo/Project 1.png'
+import InventoryManagementSystem from './assets/work_logo/Project 2.png'
+import ExpanceTrackerSystem from './assets/work_logo/Project 3.png'
+import EcommerceWebsite from './assets/work_logo/Project 4.png'
+import Ecommerce from './assets/work_logo/Project 5.png'
+import InventoryManagement from './assets/work_logo/Project 6.png'
+import EmployManagement from './assets/work_logo/Project 8.png'
+import TravelBooking from './assets/work_logo/Project 7.png'
 import Job from './assets/work_logo/JobPortal.png'
-import Swiggy from './assets/work_logo/Swiggy.png'
-import Society from './assets/work_logo/Society.png'
+
+//Certificates Section
+import Image from './assets/certificate_logo/Certificate1.png'
+import Image1 from './assets/certificate_logo/Certificate2.png'
+
+export const certificates = [
+  {
+    id: 0,
+    title: "WEBHACKS",
+    issuer: "Image",
+    date: "2022",
+    image: Image,
+    description:
+      "Participated in TECHWAR 2026 – WEBHACKS organized by Red & White Skill Education. Demonstrated web development and problem-solving skills. Collaborated in a competitive coding environment.Strengthened teamwork and practical project development experience.",
+    credentialUrl: "/certificates/full-stack-web-development-certificate.pdf",
+  },
+  {
+    id: 1,
+    title: "JavaScript",
+    issuer: "freeCodeCamp",
+    date: "2026",
+    image: Image1,
+    description:
+      "Successfully completed the JavaScript Essentials 1 certification. Gained hands-on knowledge of JavaScript fundamentals, including variables, functions, loops, arrays, objects, and DOM manipulation. Strengthened problem-solving and front-end web development skills through practical programming concepts.",
+    credentialUrl: "/certificates/javascript-essentials-1-certificate.pdf",
+  },
+  {
+    id: 2,
+    title: "React JS Certification",
+    issuer: "Udemy",
+    date: "2023",
+    image: "",
+    description:
+      "In-depth certification on building modern, scalable web applications using React JS, hooks, and state management.",
+    credentialUrl: "",
+  },
+];
+
 export const SkillsInfo = [
   {
     title: 'Frontend',
@@ -169,76 +206,86 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
-      title: "Weather App (API Based)",
+      title: "Employee Management System",
       description:
-        "Created an API-based Weather App that fetches and displays live weather information including temperature, city-wise forecast, and weather status using external weather APIs.",
-      image: WeatherAPI,
+        "Developed a responsive Employee Management System using JavaScript to manage employee records efficiently. The application allows users to add, edit, delete, search, and filter employee information with real-time updates. It features client-side validation, dynamic DOM manipulation, and Local Storage integration for persistent data without requiring a backend.",
+      image: EmployManagementSystem,
       tags: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/jinaypatel0809/Weather-App",
-      webapp: "https://weather-app-otql.vercel.app/",
+      github: "https://github.com/jinaypatel0809/Employ-Management-System.git",
+      webapp: "https://employ-management-system-rose.vercel.app/",
     },
     {
       id: 1,
-      title: "Calculator",
+      title: "Inventory Management System",
       description:
-        "Developed a functional calculator project to perform basic mathematical calculations efficiently, focusing on accuracy, simplicity, and ease of use.",
-      image: Calculator,
+        "Built an interactive Inventory Management System that helps manage products, stock levels, pricing, and inventory records. Users can perform CRUD operations, search products, monitor stock availability, and maintain inventory using Local Storage. The application is designed with a clean and responsive interface.",
+      image: InventoryManagementSystem,
       tags: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/jinaypatel0809/Currency-Converter",
-      webapp: "https://currency-converter-brown-two.vercel.app/",
+      github: "https://github.com/jinaypatel0809/Inventory-Management-Syatem.git",
+      webapp: "https://inventory-management-syatem.vercel.app/",
     },
     {
       id: 2,
-      title: "KFC Burger",
+      title: "Expance Tracker System",
       description:
-        "Built a responsive and visually appealing KFC-style burger website with dynamic menu sections and interactive features using HTML, CSS, and JavaScript, focusing on user experience and clean design.",
-      image: KFC,
+        "Created a modern Expense Tracker System to monitor daily income and expenses. The application enables users to record transactions, categorize expenses, calculate total balance automatically, and visualize financial summaries. Data is stored locally, ensuring persistence across browser sessions.",
+      image: ExpanceTrackerSystem,
       tags: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/jinaypatel0809/KFC-BURGER",
-      webapp: "https://kfc-burger.vercel.app/",
+      github: "https://github.com/jinaypatel0809/Expanse-Tracker-System.git",
+      webapp: "https://expanse-tracker-system.vercel.app/",
     },
     {
       id: 3,
-      title: "Notes App",
+      title: "Ecommerce Website",
       description:
-        "Created a Notes App using modern development tools to manage notes effectively, supporting CRUD operations with a responsive and user-friendly interface.",
-      image: NOTES,
+        "Designed and developed a fully responsive Ecommerce Website using JavaScript featuring a modern shopping experience. Users can browse products, search items, filter by categories, manage a shopping cart, and experience a smooth checkout flow. The project demonstrates dynamic rendering, reusable components, and responsive design principles.",
+      image: EcommerceWebsite,
       tags: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/jinaypatel0809/Notes-App",
-      webapp: "https://kfc-burger-gwvn.vercel.app/",
+      github: "https://github.com/jinaypatel0809/Ecommerce-Website.git",
+      webapp: "https://ecommerce-website-umber-pi.vercel.app/",
     },
     {
       id: 4,
-      title: "Quiz App",
+      title: "Ecommerce Website Using React",
       description:
-        "Quiz App – Designed and developed a quiz application with multiple questions, timer-based gameplay, score tracking, and responsive user interface using modern app development concepts.",
-      image: Quiz,
-      tags: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/jinaypatel0809/Quiz-App",
-      webapp: "https://quiz-app-eta-ruddy.vercel.app/",
-    },
-    {
-      id: 5,
-      title: "To-Do List",
-      description:
-        "Developed a To-Do List application using HTML, CSS, and JavaScript that allows users to add, edit, and delete tasks efficiently. Implemented real-time task updates, user-friendly UI, and toast notifications for actions like add and delete to enhance user experience.",
-      image: ToDoList,
-      tags: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/jinaypatel0809/To-Do-list-",
-      webapp: "https://quiz-app-mw46.vercel.app/",
-    },
-    {
-      id: 5,
-      title: "Apple Store",
-      description:
-        "Built a fully responsive Apple Store-inspired e-commerce website using React.js. The application allows users to browse products like watches, mobiles, and laptops with a clean and modern UI.",
-      image: Apple,
+        "A modern and fully responsive e-commerce web application developed using React.js. The platform allows users to browse products, search and filter items, view detailed product information, manage their shopping cart, and complete a seamless checkout experience. It features an intuitive user interface, optimized performance, reusable components, and a responsive design that delivers a smooth shopping experience across all devices.",
+      image: Ecommerce,
       tags: ["HTML", "CSS", "JavaScript", "React"],
-      github: "https://github.com/jinaypatel0809/Apple-Store.git",
-      webapp: "https://apple-store-chi-sable.vercel.app/",
+      github: "https://github.com/jinaypatel0809/Ecommerce-Website-Using-React.git",
+      webapp: "https://ecommerce-website-using-react-tan.vercel.app/",
+    },
+    {
+      id: 5,
+      title: "Inventary Management Using React",
+      description:
+        "A responsive inventory management application built with React.js to simplify product and stock management. The system enables users to add, update, delete, and organize inventory records while tracking stock availability in real time. It provides an easy-to-use dashboard with efficient data management, improving inventory accuracy and streamlining daily operations.",
+      image: InventoryManagement,
+      tags: ["HTML", "CSS", "JavaScript", "React"],
+      github: "https://github.com/jinaypatel0809/Inventory-Management-System-using-React.git",
+      webapp: "https://inventory-management-system-using-r.vercel.app/",
     },
     {
       id: 6,
+      title: "Employee Management Using React",
+      description:
+        "A React-based employee management system designed to efficiently manage employee records. The application allows administrators to add, edit, delete, and search employee information through a clean and user-friendly interface. Built with reusable components and responsive layouts, it helps simplify workforce management while providing an organized and efficient user experience.",
+      image: EmployManagement,
+      tags: ["HTML", "CSS", "JavaScript", "React"],
+      github: "https://github.com/jinaypatel0809/Employ-Management-System-Using-React.git",
+      webapp: "https://employ-management-system-using-reac.vercel.app/",
+    },
+    {
+      id: 7,
+      title: "Travel-Booking-System Using React",
+      description:
+        "A modern travel booking web application developed with React.js that enables users to explore destinations, search travel packages, view detailed trip information, and make bookings through an intuitive interface. The application focuses on responsive design, smooth navigation, and an engaging user experience, making travel planning simple and convenient across all devices.",
+      image: TravelBooking,
+      tags: ["HTML", "CSS", "JavaScript", "React"],
+      github: "https://github.com/jinaypatel0809/Travel-Booking-System.git",
+      webapp: "https://travel-booking-system-opal.vercel.app/",
+    },
+    {
+      id: 8,
       title: "Job Portal App",
       description:
         "A modern Full Stack Job Finder Application developed to connect job seekers with recruiters through a simple, fast, and user-friendly platform. This application allows users to search and apply for jobs, create professional profiles, upload resumes, and track application status in real time. Recruiters can post job vacancies, manage applications, and find suitable candidates efficiently.",
@@ -246,25 +293,5 @@ export const SkillsInfo = [
       tags: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js", "Mongodb"],
       github: "https://github.com/jinaypatel0809/Job-Portal-Frontend.git",
       webapp: "https://job-portal-frontend-two-zeta.vercel.app/",
-    },
-    {
-      id: 7,
-      title: "Swiggy App",
-      description:
-        "Developed a full-stack food delivery web application inspired by Swiggy, enabling users to browse restaurants, explore menus, place orders, and track order status in real-time. Implemented secure user authentication, responsive UI, cart management, order processing, and admin functionalities for restaurant and menu management. Built RESTful APIs for seamless communication between the frontend and backend while ensuring efficient database operations and scalable architecture.",
-      image: Swiggy,
-      tags: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js", "Mongodb"],
-      github: "https://github.com/jinaypatel0809/SWIGGY-Full-Stack.git",
-      webapp: "https://swiggy-full-stack-9nsc.vercel.app/",
-    },
-    {
-      id: 7,
-      title: "Society Management App",
-      description:
-        "A modern full-stack web application designed to simplify residential society management. The platform enables administrators to manage residents, flats, maintenance bills, complaints, payments, and notifications from a centralized dashboard. Residents can securely log in to view maintenance details, submit complaints, make payments, and download PDF receipts. The application features JWT-based authentication, role-based access control, responsive design, and a scalable REST API architecture.",
-      image: Society,
-      tags: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js", "Mongodb", "Axios", "PDFKit", "Nodemailer"],
-      github: "https://github.com/jinaypatel0809/Society-Resident-Management-App.git",
-      webapp: "https://society-resident-management-app.vercel.app/",
     },
   ];  

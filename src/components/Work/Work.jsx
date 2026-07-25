@@ -5,7 +5,7 @@ const Work = () => {
   const [selectedProject, setSelectedProject] = useState(null);
   const [showAll, setShowAll] = useState(false);
 
-  const INITIAL_COUNT = 6;
+  const INITIAL_COUNT = 8;
   const visibleProjects = showAll ? projects : projects.slice(0, INITIAL_COUNT);
 
   const handleOpenModal = (project) => {
@@ -19,7 +19,7 @@ const Work = () => {
   return (
     <section
       id="work"
-      className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans relative"
+      className="py-24 pb-24 px-[12vw] md:px-[7vw] font-sans relative"
     >
       {/* Section Title */}
       <div className="text-center mb-16">
@@ -32,7 +32,7 @@ const Work = () => {
       </div>
 
       {/* Projects Grid */}
-      <div className="grid gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
         {visibleProjects.map((project) => (
           <div
             key={project.id}
