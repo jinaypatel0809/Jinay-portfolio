@@ -67,16 +67,6 @@ export const certificates = [
       "Successfully completed the JavaScript Essentials 1 certification. Gained hands-on knowledge of JavaScript fundamentals, including variables, functions, loops, arrays, objects, and DOM manipulation. Strengthened problem-solving and front-end web development skills through practical programming concepts.",
     credentialUrl: "/certificates/javascript-essentials-1-certificate.pdf",
   },
-  {
-    id: 2,
-    title: "React JS Certification",
-    issuer: "Udemy",
-    date: "2023",
-    image: "",
-    description:
-      "In-depth certification on building modern, scalable web applications using React JS, hooks, and state management.",
-    credentialUrl: "",
-  },
 ];
 
 export const SkillsInfo = [
