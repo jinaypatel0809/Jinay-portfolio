@@ -47,6 +47,7 @@ import Zomato from './assets/work_logo/Zomato.png'
 //Certificates Section
 import Image from './assets/certificate_logo/Certificate1.png'
 import Image1 from './assets/certificate_logo/Certificate2.png'
+import Image2 from './assets/certificate_logo/Certificate3.png'
 
 export const certificates = [
   {
@@ -68,6 +69,16 @@ export const certificates = [
     description:
       "Successfully completed the JavaScript Essentials 1 certification. Gained hands-on knowledge of JavaScript fundamentals, including variables, functions, loops, arrays, objects, and DOM manipulation. Strengthened problem-solving and front-end web development skills through practical programming concepts.",
     credentialUrl: "/certificates/javascript-essentials-1-certificate.pdf",
+  },
+  {
+    id: 2,
+    title: "Skill Certificate",
+    issuer: "Red & White Skill Education",
+    date: "2026",
+    image: Image2,
+    description:
+      "Earned a skill certificate from Red & White Skill Education, recognizing practical knowledge, dedication, and hands-on learning.",
+    credentialUrl: "/certificates/RW-Skill-Certificate-RW-FF260789.pdf",
   },
 ];
 
