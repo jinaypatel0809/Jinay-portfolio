@@ -41,7 +41,8 @@ import InventoryManagement from './assets/work_logo/Project 6.png'
 import EmployManagement from './assets/work_logo/Project 8.png'
 import TravelBooking from './assets/work_logo/Project 7.png'
 import Job from './assets/work_logo/JobPortal.png'
-
+import Hospital from './assets/work_logo/Hospital.png'
+import Resident from './assets/work_logo/Resident System.png'
 //Certificates Section
 import Image from './assets/certificate_logo/Certificate1.png'
 import Image1 from './assets/certificate_logo/Certificate2.png'
@@ -283,5 +284,25 @@ export const SkillsInfo = [
       tags: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js", "Mongodb"],
       github: "https://github.com/jinaypatel0809/Job-Portal-Frontend.git",
       webapp: "https://job-portal-frontend-two-zeta.vercel.app/",
+    },
+    {
+      id: 9,
+      title: "Hospital System",
+      description:
+        "A full-stack Hospital Management System developed using React.js, Node.js, Express.js, and MongoDB to streamline hospital operations and improve patient management. The application provides secure authentication, patient registration, doctor management, appointment scheduling, and medical record management through dedicated admin and user dashboards. It features CRUD operations, responsive design, RESTful API integration, and efficient database management, ensuring a seamless and user-friendly experience for both hospital staff and patients.",
+      image: Hospital,
+      tags: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js", "Mongodb"],
+      github: "https://github.com/jinaypatel0809/Hospital-Management-System.git",
+      webapp: "https://hospital-management-system-tau-indol.vercel.app/",
+    },
+    {
+      id: 10,
+      title: "Resident System",
+      description:
+        "A full-stack Resident Management System developed using React.js, Node.js, Express.js, and MongoDB to simplify residential community management. The application enables administrators to manage resident profiles, maintenance records, visitor entries, complaints, and announcements through a secure and user-friendly dashboard. It includes authentication, CRUD operations, RESTful API integration, responsive design, and efficient database management, providing a seamless experience for both administrators and residents while improving overall community operations.",
+      image: Resident,
+      tags: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js", "Mongodb"],
+      github: "https://society-resident-management-app.vercel.app/",
+      webapp: "",
     },
   ];  
