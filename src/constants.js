@@ -43,6 +43,7 @@ import TravelBooking from './assets/work_logo/Project 7.png'
 import Job from './assets/work_logo/JobPortal.png'
 import Hospital from './assets/work_logo/Hospital.png'
 import Resident from './assets/work_logo/Resident System.png'
+import Zomato from './assets/work_logo/Zomato.png'
 //Certificates Section
 import Image from './assets/certificate_logo/Certificate1.png'
 import Image1 from './assets/certificate_logo/Certificate2.png'
@@ -302,7 +303,17 @@ export const SkillsInfo = [
         "A full-stack Resident Management System developed using React.js, Node.js, Express.js, and MongoDB to simplify residential community management. The application enables administrators to manage resident profiles, maintenance records, visitor entries, complaints, and announcements through a secure and user-friendly dashboard. It includes authentication, CRUD operations, RESTful API integration, responsive design, and efficient database management, providing a seamless experience for both administrators and residents while improving overall community operations.",
       image: Resident,
       tags: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js", "Mongodb"],
-      github: "https://society-resident-management-app.vercel.app/",
-      webapp: "",
+      github: "https://github.com/jinaypatel0809/Society-Resident-Management-App.git",
+      webapp: "https://society-resident-management-app.vercel.app/",
+    },
+    {
+      id: 11,
+      title: "Zomato Website",
+      description:
+        "Swiggy Clone is a full-stack food delivery web application. Users can browse restaurants, search for food, and manage their cart and wishlist. It includes address management, secure checkout, and order tracking. The platform supports Razorpay payments and OTP-based Cash on Delivery. It also features secure authentication and a dedicated admin dashboard. Built with React.js, Tailwind CSS, Node.js, Express.js, and MongoDB.",
+      image: Zomato,
+      tags: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js", "Mongodb"],
+      github: "https://github.com/jinaypatel0809/SWIGGY-Full-Stack.git",
+      webapp: "https://swiggy-full-stack.vercel.app/",
     },
   ];  
