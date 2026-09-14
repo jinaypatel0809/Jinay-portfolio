@@ -40,9 +40,6 @@ import Ecommerce from './assets/work_logo/Project 5.png'
 import InventoryManagement from './assets/work_logo/Project 6.png'
 import EmployManagement from './assets/work_logo/Project 8.png'
 import TravelBooking from './assets/work_logo/Project 7.png'
-import Job from './assets/work_logo/JobPortal.png'
-import Hospital from './assets/work_logo/Hospital.png'
-import Resident from './assets/work_logo/Resident System.png'
 import Zomato from './assets/work_logo/Zomato.png'
 //Certificates Section
 import Image from './assets/certificate_logo/Certificate1.png'
@@ -287,26 +284,8 @@ export const SkillsInfo = [
       github: "https://github.com/jinaypatel0809/Travel-Booking-System.git",
       webapp: "https://travel-booking-system-opal.vercel.app/",
     },
-    {
-      id: 8,
-      title: "Job Portal App",
-      description:
-        "A modern Full Stack Job Finder Application developed to connect job seekers with recruiters through a simple, fast, and user-friendly platform. This application allows users to search and apply for jobs, create professional profiles, upload resumes, and track application status in real time. Recruiters can post job vacancies, manage applications, and find suitable candidates efficiently.",
-      image: Job,
-      tags: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js", "Mongodb"],
-      github: "https://github.com/jinaypatel0809/Job-Portal-Frontend.git",
-      webapp: "https://job-portal-frontend-two-zeta.vercel.app/",
-    },
-    {
-      id: 10,
-      title: "Resident System",
-      description:
-        "A full-stack Resident Management System developed using React.js, Node.js, Express.js, and MongoDB to simplify residential community management. The application enables administrators to manage resident profiles, maintenance records, visitor entries, complaints, and announcements through a secure and user-friendly dashboard. It includes authentication, CRUD operations, RESTful API integration, responsive design, and efficient database management, providing a seamless experience for both administrators and residents while improving overall community operations.",
-      image: Resident,
-      tags: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js", "Mongodb"],
-      github: "https://github.com/jinaypatel0809/Society-Resident-Management-App.git",
-      webapp: "https://society-resident-management-app.vercel.app/",
-    },
+    
+    
     {
       id: 11,
       title: "Zomato Website",
