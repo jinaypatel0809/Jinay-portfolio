@@ -6,7 +6,19 @@ const Work = () => {
   const [showAll, setShowAll] = useState(false);
 
   const INITIAL_COUNT = 8;
-  const visibleProjects = showAll ? projects : projects.slice(0, INITIAL_COUNT);
+  const orderedProjects = [...projects].sort((first, second) => {
+    const getOrder = (project) => {
+      const tags = project.tags.map((tag) => tag.toLowerCase());
+      if (tags.includes("node.js") || tags.includes("express.js")) return 2;
+      if (tags.includes("react")) return 1;
+      return 0;
+    };
+
+    return getOrder(first) - getOrder(second);
+  });
+  const visibleProjects = showAll
+    ? orderedProjects
+    : orderedProjects.slice(0, INITIAL_COUNT);
 
   const handleOpenModal = (project) => {
     setSelectedProject(project);
@@ -69,7 +81,7 @@ const Work = () => {
       </div>
 
       {/* Show More / Show Less Button */}
-      {projects.length > INITIAL_COUNT && (
+      {orderedProjects.length > INITIAL_COUNT && (
         <div className="flex justify-center mt-12">
           <button
             onClick={() => setShowAll((prev) => !prev)}
