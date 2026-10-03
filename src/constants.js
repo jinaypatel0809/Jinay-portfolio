@@ -41,6 +41,7 @@ import InventoryManagement from './assets/work_logo/Project 6.png'
 import EmployManagement from './assets/work_logo/Project 8.png'
 import TravelBooking from './assets/work_logo/Project 7.png'
 import Zomato from './assets/work_logo/Zomato.png'
+import CalculatorApp from './assets/work_logo/Calculator App.png'
 //Certificates Section
 import Image from './assets/certificate_logo/Certificate1.png'
 import Image1 from './assets/certificate_logo/Certificate2.png'
@@ -201,13 +202,13 @@ export const SkillsInfo = [
     },
     {
       id: 1,
-      title: "Inventory Management System",
+      title: "Calculator App",
       description:
-        "Built an interactive Inventory Management System that helps manage products, stock levels, pricing, and inventory records. Users can perform CRUD operations, search products, monitor stock availability, and maintain inventory using Local Storage. The application is designed with a clean and responsive interface.",
-      image: InventoryManagementSystem,
+        "Developed a responsive Calculator App using JavaScript, HTML, and CSS, implementing arithmetic operations, interactive controls, input handling, and a user-friendly interface.",
+      image: CalculatorApp,
       tags: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/jinaypatel0809/Inventory-Management-Syatem.git",
-      webapp: "https://inventory-management-syatem.vercel.app/",
+      github: "https://github.com/jinaypatel0809/Calculator-App.git",
+      webapp: "https://calculator-app-react-nu-coral.vercel.app/",
     },
     {
       id: 2,
