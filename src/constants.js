@@ -42,6 +42,7 @@ import EmployManagement from './assets/work_logo/Project 8.png'
 import TravelBooking from './assets/work_logo/Project 7.png'
 import Zomato from './assets/work_logo/Zomato.png'
 import CalculatorApp from './assets/work_logo/Calculator App.png'
+import Ecommerce1 from './assets/work_logo/Ecommerce.png'
 //Certificates Section
 import Image from './assets/certificate_logo/Certificate1.png'
 import Image1 from './assets/certificate_logo/Certificate2.png'
@@ -273,7 +274,7 @@ export const SkillsInfo = [
     
     
     {
-      id: 11,
+      id: 8,
       title: "Zomato Website",
       description:
         "Swiggy Clone is a full-stack food delivery web application. Users can browse restaurants, search for food, and manage their cart and wishlist. It includes address management, secure checkout, and order tracking. The platform supports Razorpay payments and OTP-based Cash on Delivery. It also features secure authentication and a dedicated admin dashboard. Built with React.js, Tailwind CSS, Node.js, Express.js, and MongoDB.",
@@ -281,5 +282,16 @@ export const SkillsInfo = [
       tags: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js", "Mongodb"],
       github: "https://github.com/jinaypatel0809/SWIGGY-Full-Stack.git",
       webapp: "https://food-ordering-website-dusky-pi.vercel.app/",
+    },
+
+    {
+      id: 9,
+      title: "Full Stack Ecommerce Website",
+      description:
+        "A responsive full-stack e-commerce website featuring product listings, shopping cart functionality, user authentication, and seamless frontend-backend integration. Built to deliver a smooth and user-friendly online shopping experience.",
+      image: Ecommerce1,
+      tags: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js", "Mongodb"],
+      github: "https://github.com/jinaypatel0809/Ecommerce-Website-using-Full-Stack.git",
+      webapp: "https://ecommerce-website-using-full-stack.vercel.app/",
     },
   ];  
